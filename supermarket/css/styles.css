@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.header_d{
+    background: rgba(230, 227, 65, 0.623);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+        
+}
+
+.header_hijo_iz{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.header_hijo_dr{
+    width: 600px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.text{
+    text-decoration: none;
+    list-style-type: none;
+    color: rgb(12, 8, 107);
+    
+}
+
+.logo{
+    width: 80px;
+    height: 80px;
+}
+
+.img2{
+    width: 100%;
+    height: 400px;
+}
+
+.main_d{  
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.main_hijo_iz{
+    width: 45%;
+    height: 400px;
+}
+
+.main_hijo_dr{
+    width: 45%;
+    height: 400px;
+    margin: 30px;
+}
+.text_h1{
+    text-align: center;
+    border: 10px;
+    color: rgb(40, 46, 126);
+}
+
+.img_vegetales{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+.img_hijo{
+    width: 150px;
+    height: 150px;
+}
+
+.img_carnes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+
+.img_dulces{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 30px;
+}
+.mapa{
+    width: 100%;
+    height: 400px;
+    margin: 40px;
+}
+
+.footer_d{
+    background: rgba(67, 170, 218, 0.541);
+    color: rgb(11, 38, 128);
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
